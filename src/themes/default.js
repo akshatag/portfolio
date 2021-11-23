@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "Open Sans, sans-serif",
-    main: "Open Sans, sans-serif"
+    title: "Roboto Mono",
+    main: "Roboto Mono"
   },
   // Colors for layout
   colors: {

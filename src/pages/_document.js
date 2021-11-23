@@ -31,7 +31,10 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
+          <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&amp;display=swap" rel="stylesheet" class="jsx-3375589598"/>
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet" />
+          
           <meta name="title" content="Vipul Jha - Android & Flutter Dev" />
           <meta name="description" content="Hey there, This is Vipul Jha aka lordarcadius. I am an Android & Flutter developer who also works on ROMs, Kernels, & Scripts." />
           <meta property="og:type" content="website" />

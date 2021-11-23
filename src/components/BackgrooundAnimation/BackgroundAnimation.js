@@ -1,14 +1,14 @@
 import React from 'react';
 
 const BackgroundAnimation = () => (
-  <div>
+  <div style={{position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: "100%"}}>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="0.12">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

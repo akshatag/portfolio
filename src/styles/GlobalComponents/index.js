@@ -25,16 +25,16 @@ export const Section = styled.section`
 `
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '67px'};
+  font-weight: 700;
+  font-size: ${(props) => props.main ? '48px' : '36px'};
+  line-height: ${(props) => props.main ? '56px' : '50px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  // background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // margin-bottom: 16px;
+  padding: ${(props) => props.main ? '48px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -56,23 +56,27 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
-  line-height: 40px;
-  font-weight: 300;
-  padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 22px;
+  line-height: 38px;
+  font-weight: 400;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.75);
+
+  & a {
+    color: #45a4f7;
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
     font-size: 20px;
     line-height: 32px;
-    padding-bottom: 24px;
+    margin-bottom: 10px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 16px;
+    margin-bottom: 8px;
   }
 `
 

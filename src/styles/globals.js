@@ -19,8 +19,9 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.6rem;
     background: ${props => props.theme.colors.background1};
     color: ${props => props.theme.colors.primary1};
-    cursor: default;
-
+    height: 1000%;
+    width: 100%;
+    position: relative;
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
